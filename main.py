@@ -7,7 +7,12 @@ leaderboard = pd.DataFrame({
     'Player': ["Tetraslam", "Dr Snek", "FireTheLost"],
     'Score': [1000, 500, 100]
 })
-leaderboard.append('Player', "E")
+newplayer = str(input("What's your name?!"))
+newplayerdataframe = pd.DataFrame({
+    'NewPlayerName': [newplayer],
+    'Score': 1000,
+})
+leaderboard.append('newplayer', "E")
 
 
 def home():
