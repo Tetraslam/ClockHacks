@@ -6,7 +6,7 @@ leaderboard = pd.DataFrame(
     columns = ["Player Name", "Score"]
 )
 
-
+st.write(leaderboard)
 
 def home():
     st.write(
