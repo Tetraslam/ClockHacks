@@ -6,12 +6,13 @@ leaderboard = pd.DataFrame(
     columns = ["Player Name", "Score"]
 )
 
-st.write(leaderboard)
+
 
 def home():
     st.write(
         "# Chrono-Estimater\n##### This is a game inspired by GeoGuessr. Guess the years that pictures were taken in!"
     )
+    st.write(leaderboard)
     
     
 
