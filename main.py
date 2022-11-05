@@ -13,7 +13,7 @@ with st.form(key='playerName'):
     submit_button = st.form_submit_button(label='That is indeed my name.')
 
 newplayer = pd.DataFrame({
-    'Player': [str(text_input)],
+    'Player': [text_input],
     'Score': [1000]
 })
 
