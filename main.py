@@ -29,7 +29,7 @@ if submit_button:
         'Player': [text_input],
         'Score': [0]
     })
-    newleaderboard = pd.concat([leaderboard, addNewPlayer], ignore_index=True)
+    newleaderboard = pd.concat([leaderboard, addNewPlayer])
     leaderboard.update(newleaderboard)
     st.write('coonca')
 
