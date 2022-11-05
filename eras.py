@@ -17,6 +17,7 @@ def twenty():
         max_value=2000,
         label_visibility="collapsed",
     )  # time slider
+    finalx = 0
     if st.button('Confirm'):
         finalx = x
     st.image(activeImage, use_column_width=True)
