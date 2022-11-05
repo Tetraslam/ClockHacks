@@ -29,7 +29,7 @@ if submit_button:
         'Player': [text_input],
         'Score': [0]
     })
-    pd.concat(leaderboard, addNewPlayer)
+    pd.concat([leaderboard, addNewPlayer])
     leaderboard.update()
 
 def home():
