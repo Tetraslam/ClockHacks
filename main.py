@@ -14,8 +14,8 @@ with st.form(key='playerName'):
     submit_button = st.form_submit_button(label='That is indeed my name.')
 
 newplayer = pd.DataFrame({
-    'Players': [text_input],
-    'Scores': [1000]
+    'Player': [text_input],
+    'Score': [1000]
 })
 
 playerNamesFile = open('playerNames.txt', 'r+')
@@ -26,8 +26,8 @@ if submit_button:
     playerNamesFile.write("\n"+text_input)
     playerScoresFile.write("\n0")
     addNewPlayer = pd.DataFrame({
-        'Playerss': [text_input],
-        'Scoress': [0]
+        'Player': [text_input],
+        'Score': [0]
     })
     newleaderboard = pd.concat([leaderboard, addNewPlayer], ignore_index=True)
     leaderboard.update(newleaderboard)
