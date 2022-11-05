@@ -13,7 +13,7 @@ with st.form(key='playerName'):
     submit_button = st.form_submit_button(label='That is indeed my name.')
 
 if submit_button:
-    st.write(f'Hello there, {name}')
+    st.write(f'Hello there, {text_input}')
 
 def home():
     st.write(
