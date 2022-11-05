@@ -18,18 +18,13 @@ newplayer = pd.DataFrame({
     'Score': [1000]
 })
 
+playerNamesFile = open('playerNames.txt', 'r+')
+playerScoresFile = open('playerScores.txt', 'r+')
+print(str(1000))
 if submit_button:
-    with open('playerNames.csv', 'w', newline='') as playerNames:
-        writer = csv.writer(playerNames)
-        writer.writerow(text_input)
-    with open('playerNames.csv', 'r') as file:
-        reader = csv.reader(file)
-        for row in reader:
-            addNewPlayer = pd.DataFrame({
-                'Player': [row],
-                'Score': [1000]
-            })
-            leaderboard.update(addNewPlayer)
+    playerNamesFile.write("\n", text_input)
+    playerScoresFile.write("\n", 0)
+    leaderboard.update(addNewPlayer)
 
 def home():
     st.write(
