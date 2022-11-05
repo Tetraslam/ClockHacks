@@ -31,7 +31,7 @@ if submit_button:
     })
     newleaderboard = pd.concat([leaderboard, addNewPlayer], ignore_index=True)
     leaderboard.update(newleaderboard)
-    print('coonca')
+    st.write('coonca')
 
 def home():
     st.write(
