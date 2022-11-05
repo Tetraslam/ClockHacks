@@ -37,7 +37,7 @@ def twenty():
                 index+=1
             else:
                 index+=1
-    st.write("You scored " + score)
+    st.write("You scored " + str(score))
         
         
     
