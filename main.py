@@ -2,11 +2,17 @@ import streamlit as st
 import pandas as pd
 from eras import twenty
 
+leaderboard = pd.DataFrame(
+    columns = ["Player Name", "Score"]
+)
+
+
 
 def home():
     st.write(
-        "# Chrono-Estimater\n##### This is a simple game inspired by GeoGuessr. Which year do you think this image was taken?"
+        "# Chrono-Estimater\n##### This is a game inspired by GeoGuessr. Guess the years that pictures were taken in!"
     )
+    
     
 
 page_names_to_funcs = {
