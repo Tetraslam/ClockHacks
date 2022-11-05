@@ -19,7 +19,7 @@ newplayer = pd.DataFrame({
 
 if submit_button:
     leaderboard.append(newplayer)
-    DataFrame.update(leaderboard)
+    leaderboard.update()
 
 def home():
     st.write(
