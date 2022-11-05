@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from eras import twenty
-DataFrame.index = np.arange(1, len(df) + 1)
+DataFrame.index = np.arange(1, len(DataFrame) + 1)
 leaderboard = pd.DataFrame({
     'Player': ["Tetraslam", "Dr Snek", "FireTheLost"],
     'Score': [1000, 500, 100]
