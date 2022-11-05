@@ -20,11 +20,16 @@ newplayer = pd.DataFrame({
 
 playerNamesFile = open('playerNames.txt', 'r+')
 playerScoresFile = open('playerScores.txt', 'r+')
-st.write((str(1000)))
+score = 0
+
 if submit_button:
     playerNamesFile.write("\n", text_input)
     playerScoresFile.write("\n", 0)
-    leaderboard.update(addNewPlayer)
+    addNewPlayer = pd.DataFrame({
+        'Player': [text_input]
+    })
+    pd.concat(leaderboard, addNewPlayer)
+    leaderboard.update()
 
 def home():
     st.write(
