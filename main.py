@@ -12,8 +12,13 @@ with st.form(key='playerName'):
     text_input = st.text_input(label='Enter your name')
     submit_button = st.form_submit_button(label='That is indeed my name.')
 
+newplayer = pd.DataFrame({
+    'Player': [text_input],
+    'Score': [1000]
+})
+
 if submit_button:
-    st.write(f'Hello there, {text_input}')
+    leaderboard.append()
 
 def home():
     st.write(
