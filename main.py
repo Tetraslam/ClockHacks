@@ -12,7 +12,7 @@ newplayerdataframe = pd.DataFrame({
     'NewPlayerName': [newplayer],
     'Score': 1000,
 })
-leaderboard.append('newplayer', "E")
+leaderboard.append(newplayerdataframe)
 
 
 def home():
