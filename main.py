@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 from eras import twenty
 import csv
+import eras
 
 leaderboard = pd.DataFrame({
     'Player': ["Tetraslam", "Dr Snek", "FireTheLost"],
