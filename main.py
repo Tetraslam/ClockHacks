@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 from eras import twenty
 DataFrame.index = np.arange(1, len(df) + 1)
 leaderboard = pd.DataFrame({
