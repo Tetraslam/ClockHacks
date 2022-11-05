@@ -7,7 +7,7 @@ leaderboard = pd.DataFrame({
     'Player': ["Tetraslam", "Dr Snek", "FireTheLost"],
     'Score': [1000, 500, 100]
 })
-
+leaderboard.append('Player', "E")
 
 
 def home():
