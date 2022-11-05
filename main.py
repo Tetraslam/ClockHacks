@@ -26,8 +26,8 @@ if submit_button:
     playerNamesFile.write("\n"+text_input)
     playerScoresFile.write("\n0")
     addNewPlayer = pd.DataFrame({
-        'Player': [text_input],
-        'Score': [0]
+        'Playerss': [text_input],
+        'Scoress': [0]
     })
     newleaderboard = pd.concat([leaderboard, addNewPlayer])
     leaderboard.update(newleaderboard)
