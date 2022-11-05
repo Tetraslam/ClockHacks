@@ -29,8 +29,8 @@ if submit_button:
         'Playerss': [text_input],
         'Scoress': [0]
     })
-    newleaderboard = pd.concat([leaderboard, addNewPlayer])
-    leaderboard.update(newleaderboard, ignore_index=True)
+    newleaderboard = pd.concat([leaderboard, addNewPlayer], ignore_index=True)
+    leaderboard.update(newleaderboard)
 
 def home():
     st.write(
