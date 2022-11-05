@@ -18,7 +18,7 @@ def twenty():
         label_visibility="collapsed",
     )  # time slider
     finalx = 0
-    if st.button('Confirm'):
+    if st.button('Confirm', key='confirmbutton'):
         finalx = x
     st.image(activeImage, use_column_width=True)
     while index<3:
