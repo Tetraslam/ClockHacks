@@ -2,9 +2,10 @@ import streamlit as st
 import pandas as pd
 from eras import twenty
 
-leaderboard = pd.DataFrame(
-    columns = ["Player Name", "Score"]
-)
+leaderboard = pd.DataFrame({
+    'Player': ["Tetraslam", "Dr Snek", "FireTheLost"],
+    'Score': [1000, 500, 100]
+})
 
 
 
