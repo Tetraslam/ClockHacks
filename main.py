@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from eras import twenty
+import csv
 
 leaderboard = pd.DataFrame({
     'Player': ["Tetraslam", "Dr Snek", "FireTheLost"],
@@ -18,8 +19,17 @@ newplayer = pd.DataFrame({
 })
 
 if submit_button:
-    leaderboard.append(newplayer)
-    leaderboard.update(newplayer)
+    with open('playerNames.csv', 'w', newline='') as playerNames:
+        writer = csv.writer(playerNames)
+        writer.writerow(text_input)
+    with open('playerNames.csv', 'r') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            addNewPlayer = pd.DataFrame({
+                'Player': [row],
+                'Score': [1000]
+            })
+            leaderboard.update(addNewPlayer)
 
 def home():
     st.write(
