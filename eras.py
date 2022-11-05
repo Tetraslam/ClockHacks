@@ -28,8 +28,6 @@ def twenty():
         else:
             index+=1
         if index == 1:
-            if st.button('Confirm'):
-                finalx = x
             activeImage = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/JFK_limousine.png/640px-JFK_limousine.png'
             if finalx==1963:
                 score+=1
@@ -37,8 +35,6 @@ def twenty():
             else:
                 index+=1
         if index == 2:
-            if st.button('Confirm'):
-                finalx = x
             activeImage = 'https://upload.wikimedia.org/wikipedia/en/8/86/Einstein_tongue.jpg'
             if finalx==1951:
                 score+=1
