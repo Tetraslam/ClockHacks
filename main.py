@@ -9,31 +9,9 @@ leaderboard = pd.DataFrame({
     'Score': [1000, 500, 100]
 })
 
-with st.form(key='playerName'):
-    text_input = st.text_input(label='Enter your name')
-    submit_button = st.form_submit_button(label='That is indeed my name.')
-
-newplayer = pd.DataFrame({
-    'Player': [text_input],
-    'Score': [1000]
-})
-
-playerNamesFile = open('playerNames.txt', 'r+')
-playerScoresFile = open('playerScores.txt', 'r+')
-score = 0
-
-if submit_button:
-    playerNamesFile.write("\n"+text_input)
-    playerScoresFile.write("\n0")
-    addNewPlayer = pd.DataFrame({
-        'Player': [text_input],
-        'Score': [0]
-    })
-    leaderboard.reset_index()
-    addNewPlayer.reset_index()
-    newleaderboard = pd.concat([leaderboard, addNewPlayer])
-    leaderboard.update(newleaderboard)
-    st.write('coonca')
+#with st.form(key='playerName'):
+#    text_input = st.text_input(label='Enter your name')
+#    submit_button = st.form_submit_button(label='That is indeed my name.')
 
 def home():
     st.write(
