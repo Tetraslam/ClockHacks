@@ -23,8 +23,8 @@ playerScoresFile = open('playerScores.txt', 'r+')
 score = 0
 
 if submit_button:
-    playerNamesFile.write("\n", text_input)
-    playerScoresFile.write("\n", 0)
+    playerNamesFile.write("\n"+text_input)
+    playerScoresFile.write("\n"+0)
     addNewPlayer = pd.DataFrame({
         'Player': [text_input]
     })
