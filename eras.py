@@ -21,26 +21,25 @@ def twenty():
     if st.button('Confirm', key='confirmbutton'):
         finalx = x
     st.image(activeImage, use_column_width=True)
-    while index<3:
-        if finalx == 1980:
-                score+=1
-                index+=1
+    if finalx == 1980:
+            score+=1
+            index+=1
+    else:
+        index+=1
+    if index == 1:
+        activeImage = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/JFK_limousine.png/640px-JFK_limousine.png'
+        if finalx==1963:
+            score+=1
+            index+=1
         else:
             index+=1
-        if index == 1:
-            activeImage = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/JFK_limousine.png/640px-JFK_limousine.png'
-            if finalx==1963:
-                score+=1
-                index+=1
-            else:
-                index+=1
-        if index == 2:
-            activeImage = 'https://upload.wikimedia.org/wikipedia/en/8/86/Einstein_tongue.jpg'
-            if finalx==1951:
-                score+=1
-                index+=1
-            else:
-                index+=1
+    if index == 2:
+        activeImage = 'https://upload.wikimedia.org/wikipedia/en/8/86/Einstein_tongue.jpg'
+        if finalx==1951:
+            score+=1
+            index+=1
+        else:
+            index+=1
     st.write("You scored " + str(score))
         
         
