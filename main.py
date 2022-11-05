@@ -4,7 +4,7 @@ def home():
     st.write("# Chrono-Estimater\n##### This is a simple game inspired by GeoGuessr. Which year do you think this image was taken?")
     x = st.slider('x', min_value = 1900, max_value = 2000)  # time slider
     st.write(x, 'squared is', x * x)
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Berlinermauer.jpg/267px-Berlinermauer.jpg" use_column_width=True)
+    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Berlinermauer.jpg/267px-Berlinermauer.jpg", use_column_width=True)
 
 def hi():
     st.write("Hello there")
