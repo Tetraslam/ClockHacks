@@ -10,6 +10,9 @@ def twenty():
         max_value=2000,
         label_visibility="collapsed",
     )  # time slider
+
+    st.write(x)
+
     st.image(
         "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Berlinermauer.jpg/267px-Berlinermauer.jpg",
         use_column_width=True,
