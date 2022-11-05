@@ -1,9 +1,6 @@
 import streamlit as st
 
-images = pd.DataFrame({
-    'ImageLink': ['https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Berlinermauer.jpg/267px-Berlinermauer.jpg', 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/JFK_limousine.png/640px-JFK_limousine.png', 'https://upload.wikimedia.org/wikipedia/en/8/86/Einstein_tongue.jpg'],
-    'Time': [1980, 1963, 1951]
-})
+
 
 index = 1
 score = 0
