@@ -20,7 +20,7 @@ newplayer = pd.DataFrame({
 
 playerNamesFile = open('playerNames.txt', 'r+')
 playerScoresFile = open('playerScores.txt', 'r+')
-print(str(1000))
+st.write((str(1000)))
 if submit_button:
     playerNamesFile.write("\n", text_input)
     playerScoresFile.write("\n", 0)
