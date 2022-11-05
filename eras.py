@@ -2,10 +2,11 @@ import streamlit as st
 
 
 
-index = 1
-score = 0
+
 
 def twenty():
+    index = 1
+    score = 0
     activeImage = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Berlinermauer.jpg/267px-Berlinermauer.jpg'
     st.write("# 20th Century")
     st.write("### Choose the year this picture was taken!")
