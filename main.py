@@ -11,9 +11,9 @@ leaderboard = pd.DataFrame({
 with st.form(key='playerName'):
     text_input = st.text_input(label='Enter your name')
     submit_button = st.form_submit_button(label='That is indeed my name.')
-st.write(text_input)
+
 newplayer = pd.DataFrame({
-    'Player': [text_input],
+    'Player': [str(text_input)],
     'Score': [1000]
 })
 
