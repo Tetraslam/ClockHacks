@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from eras.py import twentiethcentury as twenty
+from eras import twentiethcentury as twenty
 
 page_names_to_funcs = {
     "Home": home,
