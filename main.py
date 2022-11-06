@@ -2,6 +2,7 @@ import streamlit as st
 
 from eras import twenty
 from eras import calculateScore
+from eras import twentyHard
 
 st.set_page_config(
     page_title="Chrono-Estimater | A Game About Time",
@@ -55,6 +56,7 @@ def home():
 page_names_to_funcs = {
     "Home": home,
     "20th Century (Easy Mode)": twenty,
+    "20th Century (Hard Mode)": twenty
 }
 
 ChronoEstimatr2000 = st.sidebar.selectbox("Choose a page", page_names_to_funcs.keys())
