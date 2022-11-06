@@ -4,12 +4,13 @@ import numpy as np
 from eras import twenty
 import csv
 import eras
-import sys
-import subprocess
 
-# implement pip as a subprocess:
-subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
-'supabase'])
+
+if 'firstrun' not in st.session_state:
+    st.session_state.key = 'notfirstrun'
+
+st.write(st.session_state.key)
+
 
 leaderboard = pd.DataFrame({
     'Player': ["Tetraslam", "Dr Snek", "FireTheLost"],

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "chrono-estimater",
+  "private_key_id": "42c0e0994feeb9ba58d89f7d77d62b5efd108ed6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC1/0QZrykq8JdZ\nw7uQhdfpjH0F1YlLZa/CPtFxVAKWYOGZdsxm8/iW2CuogC7PZjj01SB695aQM/oI\njPqiH90/aR63vaGBlWB0mvHbQSRBWuIBQW7jeilVKzbxxh5Txp3ZxN9XllqqYNTg\n03bLh7bBPmrwm8Cru7MwW9aNlCMbNpfnZweTvobSasODK/fekhHI/o8ryZufBxk5\ncAdLqJVRrWIMd9bgSNQ0DJ9/MMyt1XqUj+NJownVvKpvznrZc5AFL40zLclDxDGA\njvD03BzQRpqjWn+3r4GcgnqNvO8HW30cGmhWz58GeXyN5IXGsSgJl9QxT1RSKGgt\nC8ewnUP3AgMBAAECggEASp07Wb5Wxex6WIpnGPLOmMkIrr4jeh5X5u6jJm+3Wdih\nVS3/0gue9JTunTfkORJjMnk4RkHAYCF3Fk9aJ+KhbfBWcCUWFE7eCyBFHMtBpmuw\nsawWXruEO48qiQfdAiKxL4lHuZyCUky9qej4UKw0sFg7NqbcYGvlJGPafBPqKqrO\n1q+6lACcqMu5OkL5YzsRNOFO3O6gIirAGzm14G6G3Z87xAH/AmgPSvK8vggvScJU\n8RDU4AZyjGcGAqjxD8VwQiw6cFuXmwF1LYDO25VV2Sl+a79IiA0h/dU4+cRZETcN\nH14C3ikBUtrgK5KIWYE9gCPVPt9U2E7vyqbwFE+y0QKBgQDuKpQPOj4m7qNcKtxw\nF4ZaksJutu3GQsC5F4xo2+XjqX7eZOVEiHMh+5JjkKxz2SsLojWJE1D9/k8+3H0+\n3B4Q2tUdr0Kk44xYoybK6cnLAnXCs9Hr1e7Tk5D8CUulzsWRHTewxskC49kFQYDQ\nb0ApzwLS2PDHaCOFGWZASZDYcQKBgQDDn/pQILkVP8pzz/W+MHetPwYyVolNYWR5\n7LJantfu/cZGh+iszFdQ/3xzyU+wJko+IazjZWPTGEh2XmoIhwa12r0GOzmoMD6h\nFZB3mSUQ+ewAf5Qy85PoatmP3iPEyteh6Y+ZKYkanoj6woiIzZiIpD49m2vNOd1n\nCri3Q3RW5wKBgQDi7Ci0NY9AcwGtcJ0mJBP8OncNHDiDPdj4wkojItnwR++8oC+e\nU9A3IcbCHPdjThjodb5Cg+gYiXUh9N1Uxk/TSV3jcbiy+KghUBpHHegKCKcBQ2oR\nJX3vk1uB+K1eJxww/sCwK0cc/NErY9UDQ+zDqR0Mnm0T4dJuH9xABpf+0QKBgCYu\n+7TYLkgvg1zHorfUzgdK3fLFYVdxQyNpSAbYKl3DuwfZT1krKX/t3mTbTmqbjrJB\n8HUSPUHe44X3N8siT/T/FRY6SS7C+/aFNwWhJtMBdUdDn7GySZR8BqtGOMUYsq4v\n4I+Mw+4mM6Z+ghfxyWwiYuOzin8sZELQnO1ohTTRAoGBAJkJeZHeq6WpDFPwtXPo\nnd1XCshEDIAZc0UhnRqKY6SZ1SI1740JBqKEFks9u8dqMyWkb2YNr+n0Ut9Q0eoE\nHOGTexZwu4JwJh5hqjisl29Jv0rmgZaPP9OfFRPZoTQmlWty0Etc/pzST/l4750m\n6y0lp5y+GmtyOZE0BAfhAvVK\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-wlsd2@chrono-estimater.iam.gserviceaccount.com",
+  "client_id": "110795073225130968985",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-wlsd2%40chrono-estimater.iam.gserviceaccount.com"
+}
