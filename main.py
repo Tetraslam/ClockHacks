@@ -10,7 +10,7 @@ def firstrun():
     if 'runbefore' not in st.session_state:
         st.session_state['runbefore'] = 'run'
         return(st.session_state['runbefore'])
-
+firstrun()
 if firstrun() == 'run':
     st.write('hello')
 
