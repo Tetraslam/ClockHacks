@@ -31,7 +31,7 @@ def home():
         )
     else:
         st.write(
-            "You scored "
+            "## You scored "
             + st.session_state["displayScore"]
             + " points last time. Will you beat it this time?"
         )
