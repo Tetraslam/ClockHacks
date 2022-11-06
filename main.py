@@ -9,7 +9,8 @@ import eras
 if 'firstrun' in st.session_state:
     st.session_state.key = 'notfirstrun'
     st.write(st.session_state.key)
-else:
+    del st.session_state['firstrun']
+elif 'firstrun' not in st.session_state:
     st.session_state.key = 'firstrun'
     st.write(st.session_state.key)
 
