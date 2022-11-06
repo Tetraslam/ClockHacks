@@ -12,10 +12,7 @@ if 'key' not in st.session_state:
 else:
     st.write('ran')
 
-leaderboard = pd.DataFrame({
-    'Player': ["Tetraslam", "Dr Snek", "FireTheLost"],
-    'Score': [1000, 500, 100]
-})
+
 
 #with st.form(key='playerName'):
 #    text_input = st.text_input(label='Enter your name')
@@ -25,7 +22,7 @@ def home():
     st.write(
         "# Chrono-Estimater\n##### This is a game inspired by GeoGuessr. Guess the years that pictures were taken in!"
     )
-    st.write(leaderboard)
+
     
     
 
