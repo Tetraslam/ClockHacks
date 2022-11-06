@@ -18,7 +18,7 @@ def twenty():
         min_value=1901,
         max_value=2000,
         label_visibility="collapsed",
-        key=1
+        key="button1"
     )  # time slider
     if st.button('Confirm', key='confirmbutton'):
         score1 = round(1000 - (abs((1980-x))*10))
@@ -32,7 +32,7 @@ def twenty():
         min_value=1901,
         max_value=2000,
         label_visibility="collapsed",
-        key=2
+        key="button2"
     )  # time slider
     if st.button('Confirm', key='confirmbutton2'):
         score2 = round(1000 - (abs((1963-y))*10))
