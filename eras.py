@@ -6,7 +6,7 @@ def calculateScore(input, year):
     return round((10000/math.log(2, 10))*math.log(1 + input/year))
 
 def calculateScoreHard(input, year):
-    return round(50*(1000 / 3) * math.log((1000 / (1 + abs(year - input))), 10))
+    return round(10*(1000 / 3) * math.log((1000 / (1 + abs(year - input))), 10))
 
 
 def twenty():
