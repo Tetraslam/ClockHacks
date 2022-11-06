@@ -39,7 +39,7 @@ def twenty():
     st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/JFK_limousine.png/640px-JFK_limousine.png", use_column_width=True)
 
 
-    st.write("Your total score is " + str(calculateScore(x) + calculateScore(y))
+    st.write("Your total score is " + str(calculateScore(x) + calculateScore(y)))
 
         
         
