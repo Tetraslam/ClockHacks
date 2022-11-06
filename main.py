@@ -54,7 +54,7 @@ def home():
 
 page_names_to_funcs = {
     "Home": home,
-    "20th Century": twenty,
+    "20th Century (Easy Mode)": twenty,
 }
 
 ChronoEstimatr2000 = st.sidebar.selectbox("Choose a page", page_names_to_funcs.keys())
