@@ -64,7 +64,7 @@ def twenty():
     st.image("https://upload.wikimedia.org/wikipedia/en/8/86/Einstein_tongue.jpg", use_column_width=True)
 
 
-    st.write("Your total score is " + str(calculateScore(x, 1980) + calculateScore(y, 1963) + calculateScore(z, 1951)))
+    st.write("## Your total score is " + str(calculateScore(x, 1980) + calculateScore(y, 1963) + calculateScore(z, 1951)))
 
         
         
