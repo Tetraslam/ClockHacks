@@ -7,12 +7,6 @@ def calculateScore(input, year):
 
 
 def twenty():
-    st.set_page_config(
-   page_title="Chrono-Estimater | Home",
-   page_icon="🕒",
-   layout="wide",
-   initial_sidebar_state="expanded",
-)
     confirmed = False
     placeholder = st.empty()
     activeImage = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Berlinermauer.jpg/267px-Berlinermauer.jpg'
