@@ -6,7 +6,7 @@ import csv
 import eras
 
 st.write(st.session_state.key)
-if 'firstrun' not in st.session_state:
+if 'firstrun' in st.session_state:
     st.session_state.key = 'notfirstrun'
 else:
     st.session_state.key = 'firstrun'
