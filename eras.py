@@ -21,10 +21,10 @@ def twenty():
     )  # time slider
     if st.button('Confirm', key='confirmbutton'):
         year = 1980
-        score = round(1000 - (abs((year-x))*10))
+        score1 = round(1000 - (abs((year-x))*10))
         index+=1
     st.image(activeImage, use_column_width=True)
-    st.write("You scored " + str(score))
+    st.write("You scored " + str(score1))
 
     # Second Image
     y = st.slider(
@@ -36,11 +36,12 @@ def twenty():
     )  # time slider
     if st.button('Confirm', key='confirmbutton2'):
         year = 1963
-        score = round(1000 - (abs((year-y))*10))
+        score2 = round(1000 - (abs((year-y))*10))
         index+=1
     st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/JFK_limousine.png/640px-JFK_limousine.png", use_column_width=True)
-    st.write("You scored " + str(score))
+    st.write("You scored " + str(score2))
 
+    st.write("Your total score is " + str(score1+score2))
 
         
         
