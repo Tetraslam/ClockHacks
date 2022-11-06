@@ -7,9 +7,9 @@ import eras
 
 
 def firstrun():
-    if 'runbefore' not in st.session_state:
-        st.session_state['runbefore'] = 'run'
-        return(st.session_state['runbefore'])
+    if 'key' not in st.session_state:
+        st.session_state['key'] = 'run'
+        return(st.session_state['key'])
 firstrun()
 if firstrun() == 'run':
     st.write('hello')
