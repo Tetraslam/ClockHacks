@@ -5,9 +5,6 @@ import math
 
 
 def twenty():
-    index = 1
-    score1 = 0
-    score2 = 0
     confirmed = False
     placeholder = st.empty()
     activeImage = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Berlinermauer.jpg/267px-Berlinermauer.jpg'
@@ -23,7 +20,6 @@ def twenty():
     )  # time slider
     if st.button('Confirm', key='confirmbutton'):
         score1 = round(1000 - (abs((1980-x))*10))
-        index+=1
     st.image(activeImage, use_column_width=True)
     st.write("You scored " + str(score1))
 
@@ -38,7 +34,6 @@ def twenty():
     )  # time slider
     if st.button('Confirm', key='confirmbutton2'):
         score2 = round(1000 - (abs((1963-y))*10))
-        index+=1
     st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/JFK_limousine.png/640px-JFK_limousine.png", use_column_width=True)
     st.write("You scored " + str(score2))
 
