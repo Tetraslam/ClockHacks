@@ -4,7 +4,7 @@ import numpy as np
 from eras import twenty
 import csv
 import eras
-
+import pip
 
 leaderboard = pd.DataFrame({
     'Player': ["Tetraslam", "Dr Snek", "FireTheLost"],

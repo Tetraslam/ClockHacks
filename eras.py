@@ -67,7 +67,7 @@ def twenty():
     st.write("## Your total score is " + str(calculateScore(x, 1980) + calculateScore(y, 1963) + calculateScore(z, 1951)))
 
         
-        
+
     
 
 
