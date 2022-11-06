@@ -40,7 +40,7 @@ def twenty():
     )  # time slider
     if st.button('Confirm', key='confirmbutton2'):
         st.write("You score " +str(calculateScore(y, 1963)))
-        if calculateScore(y, 1963) == 1000):
+        if calculateScore(y, 1963) == 1000:
             st.write("That's correct! Well done.")
         else:
             st.write("The correct year was 1963.")
