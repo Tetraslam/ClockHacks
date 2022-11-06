@@ -202,7 +202,7 @@ def twentyHard():
     st.image("https://upload.wikimedia.org/wikipedia/commons/d/d9/RMS_Lusitania_coming_into_port%2C_possibly_in_New_York%2C_1907-13-crop.jpg", use_column_width=True)
 
 
-    st.write("## Your total score is " + str(calculateScoreHard(x, 1980) + calculateScoreHard(y, 1963) + calculateScoreHard(lastimage, 1915) + calculateScore(z, 1903) + calculateScoreHard(a, 1942)))
+    st.write("## Your total score is " + str(calculateScoreHard(x, 1980) + calculateScoreHard(y, 1963) + calculateScoreHard(lastimage, 1915) + calculateScoreHard(z, 1903) + calculateScoreHard(a, 1942)))
     st.session_state['displayScore'] = str(calculateScoreHard(x, 1980) + calculateScoreHard(y, 1963) + calculateScoreHard(lastimage, 1951) + calculateScore(z, 1903))
 
 
