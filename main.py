@@ -5,11 +5,13 @@ from eras import twenty
 import csv
 import eras
 
-st.write(st.session_state.key)
+
 if 'firstrun' in st.session_state:
     st.session_state.key = 'notfirstrun'
+    st.write(st.session_state.key)
 else:
     st.session_state.key = 'firstrun'
+    st.write(st.session_state.key)
 
 
 
