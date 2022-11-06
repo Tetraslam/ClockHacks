@@ -8,7 +8,7 @@ from eras import calculateScore
 
 st.set_page_config(
    page_title="Chrono-Estimater | Home",
-   page_icon=":clock:",
+   page_icon="🕒",
    layout="wide",
    initial_sidebar_state="expanded",
 )
