@@ -3,7 +3,7 @@ import math
 
 
 def calculateScore(input, year):
-    return round(10000 / (abs((year-input))))
+    return round(10000 / (abs((year-input+1))))
 
 
 def twenty():
