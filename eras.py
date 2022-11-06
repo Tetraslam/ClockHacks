@@ -203,7 +203,7 @@ def twentyHard():
 
 
     st.write("## Your total score is " + str(calculateScoreHard(x, 1980) + calculateScoreHard(y, 1963) + calculateScoreHard(lastimage, 1915) + calculateScoreHard(z, 1903) + calculateScoreHard(a, 1942)))
-    st.session_state['displayScore'] = str(calculateScoreHard(x, 1980) + calculateScoreHard(y, 1963) + calculateScoreHard(lastimage, 1951) + calculateScore(z, 1903))
+    st.session_state['displayScore'] = str(calculateScoreHard(x, 1980) + calculateScoreHard(y, 1963) + calculateScoreHard(lastimage, 1951) + calculateScoreHard(z, 1903))
 
 
 
