@@ -16,11 +16,6 @@ def home():
         "# Chrono-Estimater\n##### This is a game inspired by GeoGuessr. Guess the years that pictures were taken in!"
     )
     st.write(st.session_state['displayScore'])
-    if 'displayScore' not in st.session_state:
-        st.session_state['displayScore'] = str(calculateScore(x, 1980) + calculateScore(y, 1963) + calculateScore(z, 1951))
-        st.write(st.session_state.displayScore)
-    else:
-        st.write('failed to display score')
 
     
     
