@@ -6,7 +6,8 @@ import csv
 import eras
 
 
-
+if 'key' not in st.session_state:
+    st.session_state['key'] = 'value'
 
 leaderboard = pd.DataFrame({
     'Player': ["Tetraslam", "Dr Snek", "FireTheLost"],
