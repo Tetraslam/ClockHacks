@@ -6,13 +6,13 @@ import csv
 import eras
 
 
+def firstrun():
+    if 'runbefore' not in st.session_state:
+        st.session_state['runbefore'] = 'run'
+        return(st.session_state['runbefore'])
 
-if 'runbefore' not in st.session_state:
-    st.write('First run')
-    st.session_state['runbefore'] = 'run'
-    st.write(st.session_state['runbefore'])
-
-    
+if firstrun() == 'run':
+    st.write('hello')
 
 
 
