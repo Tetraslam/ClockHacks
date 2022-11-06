@@ -7,7 +7,7 @@ import eras
 
 
 if 'key' not in st.session_state:
-    st.session_state['key'] = 'value'
+    st.session_state['key'] = 'first time running'
     st.write(st.session_state.key)
 else:
     st.write('ran')
