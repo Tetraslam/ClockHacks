@@ -17,6 +17,7 @@ def twenty():
         min_value=1901,
         max_value=2000,
         label_visibility="collapsed",
+        key=1
     )  # time slider
     if st.button('Confirm', key='confirmbutton'):
         year = 1980
@@ -31,6 +32,7 @@ def twenty():
         min_value=1901,
         max_value=2000,
         label_visibility="collapsed",
+        key=2
     )  # time slider
     if st.button('Confirm', key='confirmbutton2'):
         year = 1963
