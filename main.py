@@ -6,11 +6,12 @@ import csv
 import eras
 
 
-if 'runbefore' in st.session_state:
-    st.write(st.session_state.key)
-elif 'runbefore' not in st.session_state:
+
+if 'runbefore' not in st.session_state:
+    st.write('First run')
     st.session_state['runbefore'] = 'run'
-    st.write(st.session_state.key)
+    st.write(st.session_state['runbefore'])
+
     
 
 
