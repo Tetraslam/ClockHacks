@@ -7,7 +7,7 @@ import eras
 from eras import calculateScore
 
 st.set_page_config(
-   page_title="Chrono-Estimater                                                                               ",
+   page_title="Chrono-Estimater                                                                               .",
    page_icon="🕒",
    layout="wide",
    initial_sidebar_state="expanded",
