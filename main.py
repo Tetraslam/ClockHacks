@@ -4,14 +4,7 @@ import numpy as np
 from eras import twenty
 import csv
 import eras
-
-
-if 'key' not in st.session_state:
-    st.session_state['key'] = 'first time running'
-    st.write(st.session_state.key)
-else:
-    st.write('ran')
-
+from eras import calculateScore
 
 
 #with st.form(key='playerName'):
@@ -22,6 +15,12 @@ def home():
     st.write(
         "# Chrono-Estimater\n##### This is a game inspired by GeoGuessr. Guess the years that pictures were taken in!"
     )
+    st.write(st.session_state['displayScore'])
+    if 'displayScore' not in st.session_state:
+        st.session_state['displayScore'] = str(calculateScore(x, 1980) + calculateScore(y, 1963) + calculateScore(z, 1951))
+        st.write(st.session_state.displayScore)
+    else:
+        st.write('failed to display score')
 
     
     
