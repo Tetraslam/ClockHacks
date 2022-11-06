@@ -13,11 +13,12 @@ def twenty():
     activeImage = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Berlinermauer.jpg/267px-Berlinermauer.jpg'
     st.write("# 20th Century")
     st.write("### Choose the year this picture was taken!")
-    x = st.slider(
+    x = st.number_input(
         "### Choose the year this picture was taken!",
         min_value=1901,
         max_value=2000,
         label_visibility="collapsed",
+        step = 1,
         key="button1"
     )  # time slider
     if st.button('Confirm', key='confirmbutton'):
@@ -27,11 +28,12 @@ def twenty():
     st.write("You scored " + str(score1))
 
     # Second Image
-    y = st.slider(
+    y = st.number_input(
         "### Choose the year this picture was taken!",
         min_value=1901,
         max_value=2000,
         label_visibility="collapsed",
+        step = 1,
         key="button2"
     )  # time slider
     if st.button('Confirm', key='confirmbutton2'):
