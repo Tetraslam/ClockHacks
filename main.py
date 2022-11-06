@@ -7,7 +7,7 @@ import eras
 from eras import calculateScore
 
 st.set_page_config(
-   page_title="Chrono-Estimater\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+   page_title="Chrono-Estimater | A Game About Time",
    page_icon="🕒",
    layout="wide",
    initial_sidebar_state="expanded",
