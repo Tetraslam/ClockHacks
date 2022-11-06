@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+global score1
+global score2
 from eras import twenty
 import csv
 import eras
