@@ -4,7 +4,12 @@ import numpy as np
 from eras import twenty
 import csv
 import eras
-import pip
+import sys
+import subprocess
+
+# implement pip as a subprocess:
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+'supabase'])
 
 leaderboard = pd.DataFrame({
     'Player': ["Tetraslam", "Dr Snek", "FireTheLost"],
