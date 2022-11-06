@@ -22,7 +22,10 @@ def twenty():
     )  # time slider
     if st.button('Confirm', key='confirmbutton'):
         st.write("You scored " + str(calculateScore(x, 1980)))
-        st.write("The correct year was 1980!")
+        if calculateScore(x, 1980) == 1000:
+            st.write("That's correct! Good job.")
+        else:
+            st.write("The correct year was 1980")
     st.image(activeImage, use_column_width=True)
     
 
@@ -37,7 +40,10 @@ def twenty():
     )  # time slider
     if st.button('Confirm', key='confirmbutton2'):
         st.write("You score " +str(calculateScore(y, 1963)))
-        st.write("The correct year was 1963!")
+        if calculateScore(y, 1963) == 1000):
+            st.write("That's correct! Well done.")
+        else:
+            st.write("The correct year was 1963.")
     st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/JFK_limousine.png/640px-JFK_limousine.png", use_column_width=True)
 
 
