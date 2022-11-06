@@ -5,6 +5,9 @@ import math
 def calculateScore(input):
     return round(1000 - (abs((1980-input))*10))
 
+global score1
+global score2
+
 def twenty():
     confirmed = False
     placeholder = st.empty()
