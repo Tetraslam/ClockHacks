@@ -1,5 +1,5 @@
 import streamlit as st
-
+import math
 
 
 
@@ -20,13 +20,11 @@ def twenty():
     )  # time slider
     finalx = 0
     if st.button('Confirm', key='confirmbutton'):
-        finalx = x
-    st.image(activeImage, use_column_width=True)
-    if finalx == 1980:
-            score+=1
-            index+=1
-    else:
+        year = 1980
+        score = (1000 / 3) * math.log((1000 / (1 + abs(year - x))), 5)
         index+=1
+    st.image(activeImage, use_column_width=True)
+    
     
     st.write("You scored " + str(score))
         
