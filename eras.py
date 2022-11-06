@@ -32,7 +32,7 @@ def twenty():
         max_value=2000,
         label_visibility="collapsed",
     )  # time slider
-    if st.button('Confirm', key='confirmbutton'):
+    if st.button('Confirm', key='confirmbutton2'):
         year = 1963
         score = round(1000 - (abs((year-y))*10))
         index+=1
