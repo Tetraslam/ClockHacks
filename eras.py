@@ -28,3 +28,9 @@ def twenty():
     else:
         index+=1
     
+    st.write("You scored " + str(score))
+        
+        
+    
+
+
