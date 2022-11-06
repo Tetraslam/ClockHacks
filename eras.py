@@ -21,7 +21,7 @@ def twenty():
     finalx = 0
     if st.button('Confirm', key='confirmbutton'):
         year = 1980
-        score = (1000 / 3) * math.log((1000 / (1 + abs(year - x))), 5)
+        score = (1000 / 3) * math.log((1000 / (1 + abs(year - x))), 10)
         index+=1
     st.image(activeImage, use_column_width=True)
     
