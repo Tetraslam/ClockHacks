@@ -2,8 +2,8 @@ import streamlit as st
 import math
 
 
-def calculateScore(input):
-    return round(1000 - (abs((1980-input))*10))
+def calculateScore(input, year):
+    return round(1000 - (abs((year-input))*10))
 
 
 def twenty():
@@ -21,7 +21,7 @@ def twenty():
         key="button1"
     )  # time slider
     if st.button('Confirm', key='confirmbutton'):
-        st.write("You scored " + str(calculateScore(x)))
+        st.write("You scored " + str(calculateScore(x, 1980)))
     st.image(activeImage, use_column_width=True)
     
 
@@ -35,11 +35,11 @@ def twenty():
         key="button2"
     )  # time slider
     if st.button('Confirm', key='confirmbutton2'):
-        st.write("You score " +str(calculateScore(y)))
+        st.write("You score " +str(calculateScore(y, 1963)))
     st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/JFK_limousine.png/640px-JFK_limousine.png", use_column_width=True)
 
 
-    st.write("Your total score is " + str(calculateScore(x) + calculateScore(y)))
+    st.write("Your total score is " + str(calculateScore(x, 1980) + calculateScore(y, 1963)))
 
         
         
