@@ -8,6 +8,8 @@ import eras
 
 if 'firstrun' not in st.session_state:
     st.session_state.key = 'notfirstrun'
+else:
+    st.session_state.key = 'firstrun'
 
 st.write(st.session_state.key)
 
