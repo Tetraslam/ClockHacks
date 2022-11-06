@@ -1,13 +1,13 @@
 import streamlit as st
 import math
-
+index = 1
+score1 = 0
+score2 = 0
 
 
 
 def twenty():
-    index = 1
-    score1 = 0
-    score2 = 0
+
     confirmed = False
     placeholder = st.empty()
     activeImage = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Berlinermauer.jpg/267px-Berlinermauer.jpg'
