@@ -8,9 +8,8 @@ import eras
 
 if 'runbefore' in st.session_state:
     st.write(st.session_state.key)
-elif 'firstrun' not in st.session_state:
-    st.session_state.key = 'runbefore'
-    del st.session_state['firstrun']
+elif 'runbefore' not in st.session_state:
+    st.session_state['runbefore'] = 'run'
     st.write(st.session_state.key)
     
 
