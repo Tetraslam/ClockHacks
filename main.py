@@ -15,7 +15,10 @@ def home():
     st.write(
         "# Chrono-Estimater\n##### This is a game inspired by GeoGuessr. Guess the years that pictures were taken in!"
     )
-    st.write(st.session_state['displayScore'])
+    if 'displayScore' not in st.session_state:
+        st.write("Welcome to Chrono-Estimater!")
+    else:
+        st.write("You scored " + st.session_state['displayScore'] + " points last time. Will you beat it this time?")
 
     
     
