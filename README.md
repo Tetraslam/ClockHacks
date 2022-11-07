@@ -11,3 +11,8 @@ Different game modes, including Easy and Hard modes.
 - Easy: This tests your recognition of famous historical pictures.
 - Hard: This forces you to use often subtle clues from the picture to figure out from which time period the picture is from.
 
+## Contributers
+We all worked equally on this project.
+- Prajwal Reddy
+- Nalin Mathur
+- Shresht Bhowmick
